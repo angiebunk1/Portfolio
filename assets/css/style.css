@@ -9,3 +9,23 @@ body {
     background-color: rgb(217, 214, 214);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1, h2, h3 {
+    color:#5a215a;
+}
+
+
+/* header styles */
+header {
+    background-color: #24b7b7;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+
+
+a {
+    color: inherit;
+}
