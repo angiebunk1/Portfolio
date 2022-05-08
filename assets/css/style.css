@@ -32,22 +32,35 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 10px 10px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 header h1 {
     font-weight: bold;
+    margin: 10px 10px;    
 }
 
 header nav {
     margin: 10px 10px;
 }
 
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
 header nav ul li {
     color: var(--tertiary-color);
     font-weight: bold;
     font-size: 20px;
-    display: inline;
-    margin: 10px;
+    padding: 10px 10px;
 }
 
 footer {
