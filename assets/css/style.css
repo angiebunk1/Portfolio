@@ -132,8 +132,11 @@ section {
 
 /* My Work styles */
 
+/* Project 1 */
+
 .project1 {
     position: relative;
+    padding-bottom: 20px;
 }
 
 .project1 a img {
@@ -150,6 +153,36 @@ section {
     background-color:#24b7b7;
     font-weight: bold;
     font-size: 45px;
+}
+
+/* Project 1 end */
+
+/* Projects 2-5 */
+
+.other-projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project2 {
+    position: relative;
+}
+
+.project2 a img {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.title2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: antiquewhite;
+    background-color: #24b7b7;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 
