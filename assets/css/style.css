@@ -192,9 +192,11 @@ section {
 
 .last3projects {
     display: flex;
-    align-items: top;
+    align-items: center;
     flex-direction: column;
 }
+
+/*project 3 */
 
 .project3 {
     position: relative;
@@ -211,6 +213,57 @@ section {
     top: 0px;
     left: 0px;
     color: antiquewhite;
+    background-color: #24b7b7;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* projects 4 & 5 */
+
+.last2projects {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* project 4 */
+.project4 {
+    position: relative;
+}
+
+.project4 img {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.title4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color:antiquewhite;
+    background-color: #24b7b7;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* project 5 */
+.project5 {
+    position: relative;
+}
+
+.project5 img {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.title5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color:antiquewhite;
     background-color: #24b7b7;
     font-weight: bold;
     font-size: 25px;
