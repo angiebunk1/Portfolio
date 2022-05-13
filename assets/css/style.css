@@ -115,9 +115,8 @@ section {
 
 .bio-img {
     padding: 20px;
-    
 }
-
+>
 .bio {
     padding: 20px;
     width: 75%;
@@ -128,6 +127,32 @@ section {
     font-size: 20px;
     font-weight: bold;
 }
+
+/* About Me styles end */
+
+/* My Work styles */
+
+.project1 {
+    position: relative;
+}
+
+.project1 a img {
+    display: flex;
+    align-items: center;
+    width: 100%;    
+}
+
+.title1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color:antiquewhite;
+    background-color:#24b7b7;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
 
 /* media queries */
 
