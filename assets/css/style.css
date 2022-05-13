@@ -28,7 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10px 10px;
+    padding: 10px 20px;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -107,29 +107,67 @@ section {
 
 .About-Me {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
     padding-bottom: 30px;
     width: 100%;
+    flex-direction: row;
 }
 
 .bio-img {
     padding: 20px;
+    
 }
-
 
 .bio {
     padding: 20px;
-    flex: 1;
-}
-
+    width: 75%;
+}   
+    
 .bio p {
     line-height: 1.2;
     font-size: 20px;
     font-weight: bold;
 }
 
+/* media queries */
+
+@media only screen and (max-width: 820px) {
+    section {
+        padding: 20px 20px;
+    }
+
+    .About-Me {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .bio {
+        width: 80%;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    section {
+        padding: 20px 20px;
+    }
+   
+   
+    .bio-img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .bio-img img {
+        width: 80%;
+    }
+    
+}
 
 
 
