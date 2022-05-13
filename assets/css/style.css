@@ -165,14 +165,17 @@ section {
     justify-content: space-between;
 }
 
+/* Project 2 */
+
 .project2 {
     position: relative;
+    padding-right: 10px;
 }
 
 .project2 a img {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 100%;
 }
 
 .title2 {
@@ -184,7 +187,34 @@ section {
     font-weight: bold;
     font-size: 25px;
 }
+/* Project 2 end */
+/* Projects 3-5 */
 
+.last3projects {
+    display: flex;
+    align-items: top;
+    flex-direction: column;
+}
+
+.project3 {
+    position: relative;
+}
+
+.project3 a img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.title3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: antiquewhite;
+    background-color: #24b7b7;
+    font-weight: bold;
+    font-size: 25px;
+}
 
 
 /* media queries */
