@@ -161,21 +161,24 @@ section {
 
 .other-projects {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Project 2 */
 
 .project2 {
     position: relative;
-    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    flex: 1 1 600px;
 }
 
 .project2 a img {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 80%;
+    margin-bottom: 20px;
 }
 
 .title2 {
@@ -187,25 +190,22 @@ section {
     font-weight: bold;
     font-size: 25px;
 }
-/* Project 2 end */
-/* Projects 3-5 */
 
-.last3projects {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 
 /*project 3 */
 
 .project3 {
     position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1 1 600px;
 }
 
 .project3 a img {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 80%;
+    margin-bottom: 20px;
 }
 
 .title3 {
@@ -218,24 +218,20 @@ section {
     font-size: 25px;
 }
 
-/* projects 4 & 5 */
-
-.last2projects {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 /* project 4 */
 .project4 {
     position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1 1 600px;
 }
 
 .project4 img {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 80%;
+    margin-bottom: 20px;
 }
 
 .title4 {
@@ -251,12 +247,16 @@ section {
 /* project 5 */
 .project5 {
     position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1 1 600px;
 }
 
 .project5 img {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 80%;
+    margin-bottom: 20px;
 }
 
 .title5 {
@@ -268,7 +268,20 @@ section {
     font-weight: bold;
     font-size: 25px;
 }
+ /* end of My Work */
 
+ /* contact me */
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info p {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+}
 
 /* media queries */
 
